@@ -215,5 +215,8 @@ article:hover{
 
     .filter {
     margin-left: 30px;
-} 
+    } 
+    .logo {
+        width: 230px;
+    }
 }
