@@ -185,4 +185,10 @@ article:hover{
     .logo {
         width: 230px;
     }
+    .menu {
+        width: 150px;
+    }
+    .nav-list {
+        padding-left: 0;
+    }
 }

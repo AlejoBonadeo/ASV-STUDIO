@@ -241,8 +241,13 @@ img{
         background-color: rgba(0,0,0,.5);
         cursor: default;
     }
-    .logo {
+    .title {
         width: 230px;
     }
-
+    .menu {
+        width: 150px;
+    }
+    .nav-list {
+        padding-left: 0;
+    }
 }
