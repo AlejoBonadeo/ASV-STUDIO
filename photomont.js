@@ -63,7 +63,7 @@ pauseBtn.addEventListener("click", function(){
     if(!nextInterval){
         if(!paused){
             paused = true
-            pauseBtn.textContent = "▷"
+            pauseBtn.innerHTML = `<i class="fas fa-play"></i>`
             clearInterval(start)
             slider1.innerHTML = `<img src="${images[i]}"/>`
             slider2.innerHTML = (i !== images.length -1 ) ? `<img src="${images[i+1]}"/>` : `<img src="${images[0]}"/>`

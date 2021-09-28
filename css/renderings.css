@@ -71,20 +71,20 @@ body{
 
 .container {
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .center {
-    width: 92%;
+    width: 95%;
     padding-left: 0;
 }
 
 article{
     max-width: 24.3%;
-    min-width: 320px;
+    min-width: 300px;
     float: left;
     margin: 0 4px 1px 4px;
     transition: transform .8s;
@@ -178,6 +178,10 @@ article:hover{
 }
 
 @media (max-width: 480px) {
+
+    article {
+        min-width: 320px;
+    }
 
     .about-container-2{
         font-size: 1rem;
